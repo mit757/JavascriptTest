@@ -1,0 +1,52 @@
+ /* fonts css */
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.account-box-holder{ position: absolute;  border:5px #0b8fc0 solid; max-width: 500px; margin: auto; font-family: 'open_sansregular'; top:50%; left: 50%; transform: translate(-50%, -50%);}
+.account-box-holder .box-inner{position: relative;min-width: 500px;}
+.account-box-holder .box-header{width: 100%;  background: #e7e7e7; border-bottom: 1px #ccc solid; }
+.account-box-holder .box-body{overflow: auto; padding: 0px 10px; max-height:350px;}
+.account-box-holder .box-footer{ width: 100%; background: #fff;  padding: 15px 0px; text-align: center; color: #148ebf;}
+.account-box-holder .box-footer a{font-size: 20px; text-decoration: none;}
+.account-box-holder .box-footer a:hover{ color:#11698c; padding: 10px 15px; cursor: pointer;}
+.red-text{ color: #f00;}
+.green-text{color: #2cc858;}
+span.up-icon:before { content: "\005E"; position: absolute;  top: -4px; font-size: 25px;;}
+.account-box-holder .box-body::-webkit-scrollbar-track{	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);background-color: #F5F5F5;}
+.account-box-holder .box-body::-webkit-scrollbar{	width: 10px;background-color: #F5F5F5;}
+.account-box-holder .box-body::-webkit-scrollbar-thumb{	background-color: #555555;}
+/* incremental css start */
+.box-data-holder{display:flex; justify-content:flex-start;}
+.box-data-holder .box-data{ align-items: center; vertical-align: middle; width: 50%; padding: 10px 15px; border-bottom:1px #efefef solid;}
+.box-data-holder .box-data:last-child{ text-align: right;}
+.box-data-holder .box-data h2{color: #0b8fc0; font-size: 20px; margin: 0px; line-height: 48px;} 
+.box-data-holder .box-data label{ font-size: 18px; display: block; color: #444444; font-size: 18px; font-family: 'open_sanssemibold';}
+.box-data-holder .box-data span{ font-size: 16px; display: block; font-family: 'open_sanssemibold';}
+.account-box-holder .box-header .box-data-holder .box-data:first-child { align-items: flex-end; vertical-align: bottom; display: inherit; background: #f7f7f7; }
+.account-box-holder .box-header .box-data-holder .box-data:first-child span{ font-size: 18px;}
+.account-box-holder .box-header .box-data-holder .box-data:hover{cursor: pointer; background: #f1f1f1; }
+.account-box-holder .box-header .box-data-holder .box-data span{ color: #4a4a4a;}
+.account-box-holder .box-header .box-data-holder .box-data span.grey-text{color: #808080; font-family: 'open_sansregular';}
+.account-box-holder .box-header .box-data-holder .box-data span.up-icon{position:relative; display: inline; color:#0b8fc0; margin-right: 25px;}
+
+.account-box-holder .box-header .box-data-holder .box-data span.up-icon:hover{ color:#11698c;cursor: pointer;}
